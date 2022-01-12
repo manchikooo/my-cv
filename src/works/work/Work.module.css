@@ -15,12 +15,18 @@
 }
 
 .clickToWatch {
-    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vh;
+    height: 7vh;
     background-color: #ffd4f0;
     padding: 8% 15%;
     cursor: pointer;
 }
+
 .infoAboutProjectBlock {
+    background-color: lavender;
     border: 1px solid green;
     display: flex;
     flex-direction: column;
