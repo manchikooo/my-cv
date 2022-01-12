@@ -1,16 +1,19 @@
 .mainBlock {
-    height: 100vh;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
     background-color: #ffd4f0;
 }
 
 .container {
     border: 1px solid;
-    height: 100%;
+    min-height: 90vh;
     width: 80%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .greetingText {

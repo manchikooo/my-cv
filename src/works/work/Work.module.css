@@ -2,17 +2,16 @@
     border: 1px solid blue;
     display: flex;
     flex-direction: column;
-    height: 100%;
 }
 
 .workBlock {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 350px;
+    max-width: 50vh;
     background-color: #99d0fb;
     border: 1px solid red;
-    height: 80%;
+    height: 50vh;
 }
 
 .clickToWatch {
@@ -27,6 +26,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 350px;
-    height: 20%;
+    max-width: 50vh;
+    min-height: 20vh;
 }
