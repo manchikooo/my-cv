@@ -4,10 +4,10 @@ import style from './Navigation.module.css';
 function Navigation() {
     return (
         <div className={style.navigation}>
-            <a href="">Главная</a>
-            <a href="">Скиллы</a>
-            <a href="">Проекты</a>
-            <a href="">Контакты</a>
+            <a href="https://vk.com">Главная</a>
+            <a href="https://vk.com">Скиллы</a>
+            <a href="https://vk.com">Проекты</a>
+            <a href="https://vk.com">Контакты</a>
         </div>
     );
 }
