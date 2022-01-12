@@ -1,0 +1,29 @@
+.remoteWorkBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    background-color: lavender;
+}
+
+.remoteWorkContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.title {
+    background-color: blanchedalmond;
+}
+
+.huntMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    background-color: #FF4A48;
+    font-weight: bold;
+    cursor: pointer;
+}
